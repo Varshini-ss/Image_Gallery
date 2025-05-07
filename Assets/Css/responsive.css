@@ -1,0 +1,559 @@
+
+@media (max-width: 480px) {
+    .ion{
+        display: none;
+    }
+    .navbar .logo{
+        margin-left: 35px;
+    }
+    .search .icon{
+        padding-right: 20px;
+    }
+    .searchbox{
+        right: -66%;
+        width: 66%;
+        height: 90px;
+        display: flex;
+    }
+    .searchbox input{
+        width: 260px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .sidebar{
+        left: 200px;
+        width: 320px;
+    }
+    .ion1>.a>.btn1{
+        visibility: visible;
+    }
+    
+    .slidebtn {
+        font-size: 2rem;
+        top: 50%;
+    }
+    .slidebtn.next {
+        right: 1rem;
+    }
+    .mcontent{
+        height: 330px;
+        width: 305px;
+        top: 160px;
+        right: -50px;
+    }
+    .mcontent>.h1{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .mcontent>.p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .mcontent>.h1::first-letter{
+        font-size: 39px;
+    }
+    .mcontent>.p::first-letter{
+        font-size: 27px;
+    }
+    #hide .hidep{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .mcontent> #btn{
+        font-size: 14px;
+    }
+    #hide .hidep::first-letter{
+        font-size: 20px;
+    }
+    @keyframes example {
+        0%   {background-color:var(--lightblack); left:480px; right:0px;}
+        50%  {background-color:var(--lightblack); left:480px; right:0px;}
+        100% {background-color:var(--lightblack); left:50px; right:0px;}
+    }
+
+    .head2{
+        flex-direction: column;
+        width: 60%;
+        padding: 80px 30px 20px 30px;    
+    }
+    .img-container img{
+        width: 320px;
+        height: 340px;
+        justify-content: center;   
+    }
+    .about .abouth1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .about .aboutp{
+        font-size: 18px;
+        line-height: 34px; 
+    }
+    .about .aboutbtn{
+        font-size: 15px;
+    }
+    .about .para1::first-letter{
+        font-size: 26px;
+    }
+    div.gallery .item{
+        margin: 20px auto;
+        width: 40%;
+    } 
+    .gallerybtn .button{
+        font-size: 15px;
+    }
+    .gallery-head h1{
+        font-size: 24px;
+    }
+    #view-more {
+        font-size: 15px;
+    }
+    .colorbtn{
+        font-size: 40px;
+    }
+    .colorbtn:hover{
+        font-size: 60px;
+    }
+    .sercard .card{
+        max-width: 90%;
+        height: auto;
+    }
+    .ser-container #h1{
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .ser-container #p{
+        font-size: 18px;
+    }
+    .card #card-img{
+        font-size: 40px;
+    }
+    .card #cardh1{
+        font-size: 22px;
+    }
+    .card #cardp{
+        font-size: 15px;
+    }
+    .testhead .testh1{
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .head6 .formhead .formh1{
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .detailform .input{
+        width: 300px;
+    }
+    .detailform .input1{
+        width: 300px;
+    }
+    #btn{
+       font-size: 19px;
+    }
+    .finalbox{
+        width: 90%;
+    }
+
+
+    .about-data .h1{
+        font-size: 27px;
+    }
+    .aboutcontent{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .about-img img{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .adoutcontent{
+        width: 80%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    .aboutcontent #p1{
+        font-size: 20px;
+    }
+    .aboutcontent h1{
+        font-size: 22px;
+    }
+    .aboutcontent p{
+        font-size: 16px;
+    }
+    .adoutcontent2{
+        width: 80%;
+    }
+    .adoutcontent2 h1{
+        font-size: 22px;
+    }
+    .adoutcontent2 p{
+        font-size: 16px;
+    }
+    .adoutcontent2 h2{ 
+        font-size: 24px;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+
+
+@media screen and (min-width:480px) and (max-width:780px){
+    .ion{
+        display: none;
+    }
+    .navbar .logo{
+        margin-left: 65px;
+    }
+    .search .icon{
+        padding-right: 40px;
+    }
+    .searchbox{
+        right: -70%;
+        width: 70%;
+        height: 90px;
+    }
+    .searchbox input{
+        width: 510px;
+        height: 45px;
+        font-size: 16px;
+        background-color: antiquewhite;
+    }
+    .sidebar{
+        left: 320px;
+        width: 450px;
+    }  
+    .ion1>.a>.btn1{
+        visibility: visible;
+    }
+    .slidebtn {
+        font-size: 3rem;
+        top: 50%;
+    }
+    .slidebtn.next {
+        right: 1rem;
+    }
+    .mcontent{
+        height: 300px;
+        width: 355px;
+        top: 155px;
+        right: -65px;
+    }
+    .mcontent>.h1{
+        font-size: 28px;
+        line-height: 47px;
+    }
+    .mcontent>.p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .mcontent>.h1::first-letter{
+        font-size: 40px;
+    }
+    .mcontent>.p::first-letter{
+        font-size: 27px;
+    }
+    #hide .hidep{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .mcontent> #btn{
+        font-size: 15px;
+    }
+    #hide .hidep::first-letter{
+        font-size: 22px;
+    }
+    @keyframes example {
+        0%   {background-color:var(--lightblack); left:405px; right:0px;}
+        50%  {background-color:var(--lightblack); left:405px; right:0px;}
+        100% {background-color:var(--lightblack); left:65px; right:0px;}
+    }
+
+    .head2{
+        flex-direction: column;
+        width: 59%;
+        padding: 80px 50px 20px 50px;
+    }
+    .img-container img{
+        width: 410px;
+        height: 350px;
+    }
+    .about .abouth1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .about .aboutp{
+        font-size: 18px;
+        line-height: 34px; 
+    }
+    .about .aboutbtn{
+        font-size: 15px;
+    }
+    .about .para1::first-letter{
+        font-size: 26px;
+    }
+    div.gallery .item{
+        margin: 20px auto;
+        width: 30%;
+    } 
+    .gallerybtn .button{
+        font-size: 15px;
+    }
+    .gallery-head h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    #view-more {
+        font-size: 15px;
+    }
+    .colorbtn{
+        font-size: 40px;
+    }
+    .colorbtn:hover{
+        font-size: 60px;
+    }
+    .sercard .card{
+        max-width: 70%;
+        height: auto;
+    }
+    .ser-container #h1{
+       font-size: 26px;
+       font-weight: 800;
+       line-height: 40px;
+    }
+    .ser-container #p{
+       font-size: 18px;
+    }
+    .card #card-img{
+        font-size: 40px;
+    }
+    .card #cardh1{
+        font-size: 22px;
+    }
+    .card #cardp{
+        font-size: 15px;
+    }
+    .testhead .testh1{
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .head6 .formhead .formh1{
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .detailform .input{
+        width: 400px;
+    }
+    .detailform .input1{
+        width: 400px;
+    }
+    #btn{
+        font-size: 20px;
+    }
+    .finalbox{
+        width: 90%;
+    }
+
+
+    .about-data .h1{
+        font-size: 27px;
+    }
+    .aboutcontent{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .about-img img{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    .adoutcontent{
+        width: 80%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    .aboutcontent #p1{
+        font-size: 20px;
+    }
+    .aboutcontent h1{
+        font-size: 22px;
+    }
+    .aboutcontent p{
+        font-size: 16px;
+    }
+    .adoutcontent2{
+        width: 80%;
+    }
+    .adoutcontent2 h1{
+        font-size: 22px;
+    }
+    .adoutcontent2 p{
+        font-size: 16px;
+    }
+    .adoutcontent2 h2{ 
+        font-size: 24px;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+
+@media screen and (min-width: 780px) and (max-width: 1150px){
+    .ion{
+        display: none;
+    }
+    .navbar .logo{
+        margin-left: 65px;
+    }
+    .search .icon{
+        padding-right: 40px;
+    }
+    .searchbox{
+        right: -70%;
+        width: 70%;
+        height: 90px;
+    }
+    .searchbox input{
+        width: 750px;
+        height: 45px;
+        font-size: 16px;
+        background-color: antiquewhite;
+    }
+    .sidebar{
+        left: 600px;
+        width: 500px;
+    }  
+    .ion1>.a>.btn1{
+        visibility: visible;
+    }
+    .slidebtn {
+        font-size: 3rem;
+        top: 50%;
+    }
+    .slidebtn.next {
+        right: 1rem;
+    }
+    .mcontent{
+        height: 320px;
+        width: 400px;
+        top: 150px;
+        right: -90px;
+    }
+    .mcontent>.h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .mcontent>.p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #hide .hidep{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .mcontent> #btn{
+        font-size: 17px;
+    }
+    .mcontent>.h1::first-letter{
+        font-size: 50px;
+    }
+    .mcontent>.p::first-letter{
+        font-size: 30px;
+    }
+    #hide .hidep::first-letter{
+        font-size: 22px;
+    }
+    @keyframes example {
+        0%   {background-color:var(--lightblack); left:370px; right:0px;}
+        50%  {background-color:var(--lightblack); left:370px; right:0px;}
+        100% {background-color:var(--lightblack); left:90px; right:0px;}
+    }
+    .head2{
+        width: 100%;
+        padding: 70px 50px 20px 50px;
+        column-gap: 30px; 
+    }
+    .img-container{
+        padding-top: 20px;
+    }
+    .img-container img{
+        width: 300px;
+        height: 350px;
+    }
+    .about .abouth1{
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .gallery-head h1{
+        font-size: 38px;
+        font-weight: 600;
+    }
+    div.gallery .item{
+        margin: 20px auto;
+        width: calc(29% - 1px);
+    }   
+    .colorbtn{
+        font-size: 60px;
+    }
+    .colorbtn:hover{
+        font-size: 90px;
+    }
+    .sercard .card{
+        max-width: 40%;
+        height: 350px;
+    }
+    .ser-container #h1{
+       font-size: 38px;
+       font-weight: 600;
+       line-height: 70px;
+    }
+    .ser-container #p{
+       font-size: 22px;
+    }
+    .finalbox{
+        width: 50%;
+    }
+    .testhead .testh1{
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .head6 .formhead .formh1{
+        font-size: 38px;
+        font-weight: 600;  
+    }
+    .about .aboutp{
+        font-size: 18px;
+        line-height: 34px; 
+    }
+    .about .aboutbtn{
+        font-size: 15px;
+    }
+    .about .para1::first-letter{
+        font-size: 26px;
+    }
+    .about-data .h1{
+        font-size: 48px;
+    }
+    .aboutcontent{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .about-img img{
+        width: 90%;
+        height: 90%;
+        margin-left: 10%;
+    }
+    .adoutcontent{
+        width: 80%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    .adoutcontent2{
+        width: 80%;
+    }
+}
+

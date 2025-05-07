@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel</title>
+    <link rel="shortcut icon" href="./Assets/Image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/responsive.css">
+</head>
+<body>
+    <header class="head"> 
+        <nav class="navbar">
+            <h1 class="logo">Travel</h1>
+            <ul class="nav-container">
+            <div class="search">
+            <span class="icon">
+            <ion-icon name="search-outline" class="searchbtn"></ion-icon>
+            <ion-icon name="close-outline" class="closebtn"></ion-icon>
+            </span>
+            </div>
+            <div class="searchbox">
+            <input type="text" placeholder="Search here ....">
+            </div>
+            <li class="ion"><a class="a1" href="#contact">Contact</a></li>
+            <li class="ion"><a class="a1" href="#service">Service</a></li>
+            <li class="ion"><a class="a1" href="#gallery">Gallery</a></li>
+            <li class="ion"><a class="a1" href="#about">About</a></li>
+            <li class="ion"><a class="a1 active" href="#home">Home</a></li>
+            <li class="ion1" onclick=showSidebar()><a class="a" href="#"><ion-icon name="menu-outline" class="btn1"></ion-icon></a></li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><ion-icon name="close-outline" class="btn2"></ion-icon></a></li>
+            <li><a class="active s1" href="#home">Home</a></li>
+            <li><a class="s1" href="#about">About</a></li>
+            <li><a class="s1" href="#gallery">Gallery</a></li>
+            <li><a class="s1" href="#service">Service</a></li>
+            <li><a class="s1" href="#contact">contact</a></li>
+        </ul>
+        </nav>
+        <main id="home" class="slideshow-container">
+            <div class="carousel" data-carousel>
+                <button class="slidebtn prev" data-carousel-button="prev">&#x2039;</button>
+                <button class="slidebtn next" data-carousel-button="next">&#x203A;</button>
+                    <div class="mcontent">
+                        <h1 class="h1">Creating  memories,</h1>
+                        <h1 class="h1">Capturing moments..</h1>
+                        <p class="p">"Explore the world to discover new things, and you will enjoy your journey."</p>
+                        <button id="btn">Learn More</button>
+                        <div id="hide">
+                        <p class="hidep">The term "explorer" refers to a person who travels to new or unknown places in order to discover. It associated with journeys of adventure, discovery, and scientific research, typically venturing into areas that are not well-documented or are far from ordinary human settlement.</p>
+                        </div>
+                    </div>
+                    <ul class="slideshow" data-slides>
+
+                    <li class="slide" data-active>
+                        <img src="./Assets/Image/img1.jpg" alt="img1">
+                    </li>
+                    <li class="slide">
+                        <img src="./Assets/Image/img2.webp" alt="img2">
+                    </li>
+                    <li class="slide">
+                        <img src="./Assets/Image/img12.jpg" alt="img12">
+                    </li>
+                    <li class="slide">
+                        <img src="./Assets/Image/img24.webp" alt="img24">
+                    </li>
+                </ul>
+            </div>
+        </main> 
+    </header>
+    <section id="about" class="head2">
+        <div class="about">
+            <h1 class="abouth1">About</h1>
+            <p class="aboutp para1">Exploring the world through travel opens up endless opportunities for adventure, learning, and discovery.</p>
+            <p class="aboutp">By visiting new places, you experience diverse cultures, landscapes, and histories, enriching your understanding of the world.</p>
+            <a class="aboutbtn" href="./About.html">Read More</a>
+        </div>
+        <div class="img-container">
+            <img src="./Assets/Image/img20.jpg" alt="img20">
+        </div>
+    </section>
+    <section id="gallery" class="head3">
+        <div class="gallery-head">
+            <h1>Our Gallery</h1>
+        </div>
+        <div class="btn-container">
+            <div class="gallerybtn">
+                <button class="button active" data-filter="*">All</button>
+                <button class="button" data-filter=".sceneries">Sceneries</button>
+                <button class="button" data-filter=".adventure">Adventure</button>
+                <button class="button" data-filter=".explorer">Explorer</button>
+            </div>
+            <div class="gallery">
+                <div class="item explorer">
+                    <img src="./Assets/Image/img6.jpg" alt="img6">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img7.webp" alt="img7">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item explorer">
+                    <img src="./Assets/Image/img8.jpeg" alt="img8">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img9.jpeg" alt="img9">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img10.jpg" alt="img10">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img11.webp" alt="img11">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img12.jpg" alt="img12">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="item adventure">
+                    <img src="./Assets/Image/img13.jpg" alt="img13">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img14.jpg" alt="img14">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img15.jpg" alt="img15">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item adventure">
+                    <img src="./Assets/Image/img16.jpg" alt="img16">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img17.jpeg" alt="img17">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img18.avif" alt="img18">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img19.jpeg" alt="img19">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img20.jpg" alt="img20">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img1.jpg" alt="img1">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img22.jpg" alt="img22">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img23.jpeg" alt="img23">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img24.webp" alt="img24">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img25.webp" alt="img25">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img2.webp" alt="img2">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img3.jpeg" alt="img3">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item sceneries">
+                    <img src="./Assets/Image/img4.jpeg" alt="img4">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item adventure">
+                    <img src="./Assets/Image/img5.jpeg" alt="img5">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+                <div class="hidden item explorer">
+                    <img src="./Assets/Image/img21.jpeg" alt="img21">
+                    <div class="overlay">
+                        <button class="colorbtn" active>♥</button>
+                    </div>
+                </div>
+            </div>
+            <button id="view-more">View More</button>
+        </div>
+    </section>
+    <section id="service" class="head4">
+        <div class="service">
+            <div class="ser-container">
+                <h1 id="h1">Services</h1>
+                <p id="p">"Explore the world by traveling" can be made even more exciting with the help of various services designed to enhance your journey."</p>
+            </div>
+            <div class="sercard">
+                <div class="card">
+                    <span id="card-img">🚇</span>
+                    <h1 id="cardh1">Travel Agencies</h1>
+                    <p id="cardp">Offering personalized itineraries, guided tours, and group travel packages to make exploring new destinations seamless.</p>
+                </div>
+                <div class="card">
+                    <span id="card-img">🚘</span>
+                    <h1 id="cardh1">Transportation</h1>
+                    <p id="cardp">Renting cars, booking trains, or using ride-sharing apps like Uber and Lyft for easy local travel.</p>
+                </div>
+                <div class="card">
+                    <span id="card-img">🏦</span>
+                    <h1 id="cardh1">Currency Exchange</h1>
+                    <p id="cardp">Helping you manage money and exchange currency for international travel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="head5">
+        <div class="testhead">
+            <h1 class="testh1">Testimonials</h1>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial active">
+                <p>"Exploring new places has pushed me out of my comfort zone and helped me grow as a person."</p>
+                <span>⍟⍟⍟⍟</span>
+                <h4>- Ram</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Every destination has left me with lasting memories of beautiful landscapes and incredible adventures."</p>
+                <span>⍟⍟⍟⍟⍟</span>
+                <h4>- Jhon</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Cultural is Discovery the opportunity to immerse myself in diverse cultures and learn from people around the world."</p>
+                <span>⍟⍟⍟⍟</span>
+                <h4>- Maya</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Traveling has broadened my perspective and enriched my life in ways I never expected."</p>
+                <span>⍟⍟⍟</span>
+                <h4>- Krish</h4>
+            </div>
+            <button class="sprev">❮</button>
+            <button class="snext">❯</button>
+        </div>    
+    </section>
+    <section id="contact" class="head6">
+        <div class="formhead">
+           <h1 class="formh1">Contact Us</h1>
+        </div>
+        <form id="form">
+            <div class="detailform">
+                <input class="input" type="text" placeholder="Name" id="username"> <br>
+                <small class="error"></small>
+            </div>
+            <div class="detailform">
+                <input class="input" type="email" placeholder="Email" id="useremail"> <br>
+                <small class="error"></small>
+            </div>
+            <div class="detailform">
+                <input class="input" type="tel" placeholder="Phone-no" id="userphoneno"> <br>
+                <small class="error"></small>
+            </div>
+            <div class="detailform">
+                <textarea class="input1" id="usermessage" placeholder="Message"></textarea>
+            </div>
+            <button id="btn" type="submit">submit</button>
+        </form>
+
+    </section>
+    <section class="head7">
+        <div class="final">
+            <div class="finalbox"> 
+                <h1 class="fh1">About</h1>
+                <p class="fp">Travel refers to the movement of people between different locations, often across long distances. It can be done for various reasons, such as exploration, leisure, business, education, or cultural exchange.</p>
+            </div>
+            <div class="finalbox">
+                <h1 class="fh1">Menu</h1>
+                <li class="fli">Home</li>
+                <li class="fli">About</li>
+                <li class="fli">Gallery</li>
+                <li class="fli">Services</li>
+                <li class="fli">Contact Us</li>
+            </div>
+            <div class="finalbox">
+                <h1 class="fh1">Useful link</h1>
+                <li class="fli">Tourism</li>
+                <li class="fli">Explore </li>
+                <li class="fli">Adventure</li>
+                <li class="fli">Cultural</li>
+                <li class="fli">Nature Destinations</li>
+            </div>
+            <div class="finalbox">
+                <h1 class="fh1">Contact Us</h1>
+                <p class="fp"><ion-icon name="location-outline"></ion-icon> Address: Chennai-600 113</p>
+                <p class="fp"><ion-icon name="call-outline"></ion-icon> Call: +14 9864532337</p>
+                <p class="fp"><ion-icon name="mail-outline"></ion-icon> Email: Mailabc@gmail.com</p>
+
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="./Assets/Js/page.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+   
+</body>
+</html>
